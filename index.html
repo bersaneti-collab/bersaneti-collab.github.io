@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CapiGO — estude para o ENEM com a capivara</title>
+<meta name="description" content="CapiGO: app de estudos para o ENEM com missões, revisão, simulados e correção de redação.">
+<style>
+  :root { --bg:#ffffff; --fg:#2D2A32; --mut:#6B6572; --line:#ECE6F2; --roxo:#8B4FA8; --roxo-claro:#F6ECFB; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16131A; --fg:#F1ECF6; --mut:#B3ADBC; --line:#2C2533; --roxo:#C79FE0; --roxo-claro:#241B2C; }
+  }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif }
+  main { max-width:720px; margin:0 auto; padding:56px 16px 48px; text-align:center }
+  .selo { width:96px; height:96px; border-radius:24px; background:var(--roxo); display:grid; place-items:center; margin:0 auto 20px; font-size:48px }
+  h1 { font-size:2.4rem; line-height:1.15; margin:0 0 8px }
+  .sub { color:var(--mut); font-size:1.1rem; margin:0 auto 32px; max-width:520px }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; text-align:left; margin:0 0 40px }
+  .card { background:var(--roxo-claro); border:1px solid var(--line); border-radius:16px; padding:16px 18px }
+  .card b { display:block; margin-bottom:4px }
+  .card span { color:var(--mut); font-size:.95rem }
+  footer { border-top:1px solid var(--line); padding-top:20px; color:var(--mut); font-size:.92rem }
+  footer a { color:var(--roxo); margin:0 8px }
+</style>
+</head>
+<body>
+<main>
+  <div class="selo" aria-hidden="true">🦫</div>
+  <h1>CapiGO</h1>
+  <p class="sub">Estude para o ENEM um pouquinho por dia, com a capivara do seu lado.</p>
+
+  <div class="cards">
+    <div class="card"><b>Missões rápidas</b><span>Questões de todas as matérias, das fáceis às do ENEM.</span></div>
+    <div class="card"><b>Revisão inteligente</b><span>O app lembra o que você errou e traz de volta na hora certa.</span></div>
+    <div class="card"><b>Simulados</b><span>Prova cronometrada, com gabarito só no final.</span></div>
+    <div class="card"><b>Redação</b><span>Correção por competência, no estilo do ENEM.</span></div>
+  </div>
+
+  <footer>
+    <a href="politica-de-privacidade.html">Política de Privacidade</a>
+    <a href="politica-de-privacidade.html#excluir-conta">Excluir minha conta</a>
+    <a href="mailto:jazeelbbrito@gmail.com">Contato</a>
+  </footer>
+</main>
+</body>
+</html>
